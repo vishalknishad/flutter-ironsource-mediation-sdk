@@ -21,14 +21,9 @@ rootProject.allprojects {
         google()
         jcenter()
         maven {
-            url "https://dl.bintray.com/ironsource-mobile/android-sdk"
+            url 'https://android-sdk.is.com/'
         }
-        maven {
-            //IronSource Adapters
-            url "http://dl.bintray.com/ironsource-mobile/android-adapters"
-        }
-
-
+        mavenCentral()
     }
 }
 
